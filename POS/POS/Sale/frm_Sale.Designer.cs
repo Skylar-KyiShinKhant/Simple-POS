@@ -243,7 +243,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(230, 63);
             this.label7.TabIndex = 9;
-            this.label7.Text = "Refund :";
+            this.label7.Text = "Change :";
             // 
             // txtPayment
             // 
