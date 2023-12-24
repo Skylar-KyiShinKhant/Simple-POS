@@ -60,7 +60,7 @@ namespace POS.MasterData
             ShowUserLevel();
             String Month = String.Format("{0:D2}", DateTime.Now.Month);
             String Day = String.Format("{0:D2}", DateTime.Now.Day);
-            String Year = String.Format("{0:D2}", DateTime.Now.Month);
+            String Year = String.Format("{0:D2}", DateTime.Now.Year);
             lblUpdateDate.Text = Month + "/" + Day + "/" + Year;
             txtUserName.Focus();
         }
