@@ -78,9 +78,9 @@ namespace POS.MasterData
                 txtPrice.Focus();
                 txtPrice.Select();
             }
-            else if(Convert.ToInt32(txtPrice.Text) !=0 && Convert.ToInt32(txtPrice.Text)<1000 || Convert.ToInt32(txtPrice.Text)>1000000)
+            else if(Convert.ToInt32(txtPrice.Text) !=0 && Convert.ToInt32(txtPrice.Text)<1 || Convert.ToInt32(txtPrice.Text)>10000)
             {
-                MessageBox.Show("Price Should Be Between 1 Thousand and 10 Lakh Or 0 Price", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Price Should Be Between 1 and 10000 Or 0", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtPrice.Focus();
                 txtPrice.SelectAll();
             }
