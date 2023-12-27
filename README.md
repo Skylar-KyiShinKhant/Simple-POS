@@ -43,7 +43,6 @@ Upon successful login, the previously labeled __Log In__ button is now identifie
 </table>
 
 Upon selecting the __Item__ button, a window will appear displaying a comprehensive list of items in stock, along with detailed information. In this interface, you have the ability to manipulate the data by creating, updating, deleting, or searching for items.
-<img src="https://github.com/Skylar-KyiShinKhant/Simple-POS/blob/Editing-files/pos-ss/Screenshot-6.png">
 
 <table>
   <tr>
@@ -58,7 +57,7 @@ Upon selecting the __Item__ button, a window will appear displaying a comprehens
   </tr>
 </table>
 
-Searching
+Searching Items
 <table>
   <tr>
     <td><img src="https://github.com/Skylar-KyiShinKhant/Simple-POS/blob/Editing-files/pos-ss/Screenshot-10.png" width="350"></td>
