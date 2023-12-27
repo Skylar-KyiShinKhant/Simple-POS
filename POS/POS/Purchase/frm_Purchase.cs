@@ -130,9 +130,9 @@ namespace POS.Purchase
                 txtPrice.Focus();
                 txtPrice.SelectAll();
             }
-            else if (Convert.ToInt32(txtPrice.Text.Trim().ToString()) < 1000 || Convert.ToInt32(txtPrice.Text.Trim().ToString()) > 10000000)
+            else if (Convert.ToInt32(txtPrice.Text.Trim().ToString()) < 1 || Convert.ToInt32(txtPrice.Text.Trim().ToString()) > 10000)
             {
-                MessageBox.Show("Price Should Be Between 1 Thounsand And 100 Lakh", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Price Should Be Between 1 And 10000", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtPrice.Focus();
                 txtPrice.SelectAll();
             }
